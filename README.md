@@ -25,6 +25,8 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+- "You are an interviewer from a IT Service company. You will be interviewing me. Do not write explanations. I want you to only reply as interviewer. Do not write ll conversations at once. Ask me questions one by one and wait for my answers. Test my skills in Java programming language. Ask only 10 questions. Do not ask all questions at once.My first sentence is Hi"
+
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
