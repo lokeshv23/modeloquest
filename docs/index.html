@@ -1,6 +1,83 @@
+<!DOCTYPE html>
 <html>
-    <body>
-      <H1>hello</H1>
-    </body>
-</html>
+<head>
+    <title>Modelo Questo - AI-based self assessment in tech skills</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@mui/system@5.3.0/dist/system/system.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@mui/material@5.3.0/dist/material.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+ </head>
 
+<body>
+  <div class="container">
+    <h1>Modelo Questo</h1>
+    <p>AI-based self assessment in tech skills</p>
+    <a href="#" class="button" id="get-started-button"> Get Started<span class="arrow"> > </span></a>
+
+
+    <div class="dropdown-container" id="dropdownContainer">
+        <select class="dropdown" id="dropdown1" class="mui-select">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </select>
+        <select class="dropdown" id="dropdown2" class="mui-select">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </select>
+        <select class="dropdown" id="dropdown3" class="mui-select">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </select>
+      </div>
+      
+
+  </div>
+
+  <div class="privacy-popup" id="privacyPopup">
+    <div class="privacy-content">
+      <p>Privacy Notice:
+        <br/><br/>
+        At Modelo Questo, we prioritize the privacy and security of our users. We want to assure you that we do not store any personal information when you use our website.
+        <br/><br/>
+        When you visit our website, we may collect some non-personally identifiable information such as your IP address, browser type, and device information. This information is collected to improve the performance and functionality of our website and to analyze user trends. However, we do not link this information to any personally identifiable data.
+        <br/><br/>
+        We may use cookies on our website to enhance your browsing experience. These cookies are used for technical purposes, such as maintaining session information or personalizing your experience. They do not contain any personal information.
+        <br/><br/>
+        It is important to note that we do not require you to provide any personal information to access or use our website. We do not request or store any sensitive data, such as names, addresses, or financial information.
+        <br/><br/>
+        We do not share your information with third parties for marketing purposes or any other purposes. Your privacy is of utmost importance to us, and we take all necessary precautions to safeguard your data.
+        <br/><br/>
+        Please note that while we strive to provide a secure and reliable website, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security, but we work diligently to protect your information.
+        <br/><br/>
+        By using our website, you agree to the terms and conditions outlined in this Privacy Notice. If you have any concerns or questions regarding our privacy practices, please feel free to contact us.
+        <br/><br/>
+        Thank you for trusting Modelo Questo for your AI-based self-assessment in tech skills.</p>
+      <a href="#" class="button" id="understandBtn">I Understand</a>
+    </div>
+  </div>
+
+  <footer class="credits">
+    <p><a href="#" id="privacyLink">Privacy Notice</a> | Powered by <a href="https://openai.com/">OpenAI</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mui/system@5.3.0/dist/system/system.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mui/material@5.3.0/dist/material.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      // Initialize Material-UI dropdown components
+      const dropdowns = document.querySelectorAll(".dropdown");
+      dropdowns.forEach((dropdown) => {
+        new MuiSelect(dropdown);
+      });
+    });
+  </script>
+  
+
+</body>
+</html>
